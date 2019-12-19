@@ -1,0 +1,51 @@
+{
+    "id": "9c0fecbdd2863c1d6893228695933c42",
+    "name": "System Award Management API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "b0a6c5695ec94886c5e5cad38a317abf",
+            "name": "Find a registration by its DUN+4 number",
+            "url": "httpsapi.data.gov\/sam\/v1\/registrations\/{registrationId}",
+            "description": "If the entity only has a 9-digit DUNS number, pad the end to include 4 zeros",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "registrationId",
+                    "description": "DUNS+4 number (no '-' sign) of the registration to be fetched",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "api_key",
+                    "description": "An API Key from api.data.gov",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "9c0fecbdd2863c1d6893228695933c42",
+            "rawModeData": ""
+        }
+    ]
+}
