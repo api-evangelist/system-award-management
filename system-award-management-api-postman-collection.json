@@ -1,5 +1,5 @@
 {
-    "id": "9c0fecbdd2863c1d6893228695933c42",
+    "id": "2cbbd7cf8c176183e50ffd52a432b866",
     "name": "System Award Management API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "b0a6c5695ec94886c5e5cad38a317abf",
+            "id": "d1d398380862b266ff0614046bd6c94a",
             "name": "Find a registration by its DUN+4 number",
             "url": "httpsapi.data.gov\/sam\/v1\/registrations\/{registrationId}",
             "description": "If the entity only has a 9-digit DUNS number, pad the end to include 4 zeros",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "9c0fecbdd2863c1d6893228695933c42",
+            "collectionId": "2cbbd7cf8c176183e50ffd52a432b866",
             "rawModeData": ""
         }
     ]
